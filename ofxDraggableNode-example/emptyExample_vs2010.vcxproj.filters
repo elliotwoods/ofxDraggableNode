@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\testApp.cpp" />
+    <ClCompile Include="..\..\ofxGrabCam\src\ofxGrabCam.cpp">
+      <Filter>ofxGrabCam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ofxDraggableNode.cpp">
+      <Filter>ofxDraggableNode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\ofxGrabCam\src\of3dMouseEventArgs.cpp">
+      <Filter>ofxGrabCam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h" />
+    <ClInclude Include="..\..\ofxGrabCam\src\ofxGrabCam.h">
+      <Filter>ofxGrabCam</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ofxDraggableNode.h">
+      <Filter>ofxDraggableNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\ofxGrabCam\src\of3dMouseEventArgs.h">
+      <Filter>ofxGrabCam</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ofxGrabCam">
+      <UniqueIdentifier>{b4a5bae1-fab4-4192-89b3-65ac597ab2c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxDraggableNode">
+      <UniqueIdentifier>{e79f98c0-06f3-4362-abc6-a04c0a00add3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
